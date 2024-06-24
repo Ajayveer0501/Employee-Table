@@ -65,7 +65,7 @@ function App() {
             </tr>}
         </tbody>
       </table>
-      <button onClick={handlePrevious}>PREVIOUS</button>
+      <button onClick={handlePrevious} disabled={currentPage===1}>PREVIOUS</button>
       <span>{currentPage}</span>
       <button onClick={handleNext}>NEXT</button>
 
